@@ -1,0 +1,39 @@
+{
+  "name": "candy-shop",
+  "version": "1.0.0",
+  "author": "Adam Kukliński",
+  "description": "",
+  "repository": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --colors --host 0.0.0.0",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "react": "^16.13.1",
+    "react-audio-player": "^0.13.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.6.1",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.3.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "webpack": "^4.32.1",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
