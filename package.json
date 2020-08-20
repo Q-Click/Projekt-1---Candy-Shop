@@ -7,8 +7,9 @@
   "repository": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --colors --host 0.0.0.0",
+    "start": "node server.js webpack-dev-server --inline --progress --colors --host 0.0.0.0",
     "build": "webpack",
+    "heroku-postbuild": "webpack -p",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
